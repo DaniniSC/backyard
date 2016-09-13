@@ -12,10 +12,11 @@ header nav a {
 	text-decoration: none;
 	color: grey;
 	margin: 0 20px;
+	font-family: "Open Sans";
 }
 /*SECTION*/
 section {
-	background-color: #454545;
+	background-color: #0F8FD9;
 }
 section .col-6 {
 	padding: 30px;
@@ -68,8 +69,21 @@ footer p {
 /*MEDIA QUERY*/
 @media (max-width: 535px) {
 	/*header*/
+	header {
+		position: fixed;
+		width: 100%;
+		background-color: white;
+	}
 	header .container {
 		width: 100%;
+	}
+	header img {
+		width: 150px;
+		margin-top: 10px;
+		height: auto;
+	}
+	header nav a {
+		margin: 0 5px;
 	}
 	/*section*/
 	section {
@@ -84,6 +98,7 @@ footer p {
 	section h1 {
 		max-width: 100%;
 		width: auto;
+		margin-top: 50px;
 	}
 	section p {
 		max-width: 100%;
