@@ -1,0 +1,100 @@
+/* Por defecto */
+/*HEADER*/
+header img {
+	width: 200px;
+	height: auto;
+}
+header nav {
+	text-align: right;
+	margin: 20px auto;
+}
+header nav a {
+	text-decoration: none;
+	color: grey;
+	margin: 0 20px;
+}
+/*SECTION*/
+section {
+	background-color: #454545;
+}
+section .col-6 {
+	padding: 30px;
+}
+section h1 {
+	color: white;
+	font-family: "Open Sans";
+	font-size: 45px;
+}
+p {
+	color: white;
+	font-family: "Open Sans";
+	font-size: 15px;
+}
+.formulario {
+	width: 300px;
+	height: auto;
+	background-color: #7B7B7B;
+	text-align: center;
+	border-radius: 2%;
+	padding: 20px;
+}
+.formulario h2 {
+	color: white;
+	font-family: "Open Sans";
+	font-size: 30px;
+	text-align: center;
+}
+.formulario input {
+	width: 250px;
+	height: 40px;
+	border: none;
+	background-color: white;
+	color: grey;
+	border-radius: 2%;
+	margin: 5px;
+	padding: 5px 10px;
+}
+.boton {
+	width: 360px;
+	height: auto;
+	background-color: #30A7F3;
+	color: white;
+}
+/*FOOTER*/
+footer p {
+	color: grey;
+	margin: 10px 5px;
+}
+/*MEDIA QUERY*/
+@media (max-width: 535px) {
+	/*header*/
+	header .container {
+		width: 100%;
+	}
+	/*section*/
+	section {
+		max-width: 100%;
+	}
+	section .container {
+		max-width: 100%;
+	}
+	.col-6 {
+		width: 100%;
+	}
+	section h1 {
+		max-width: 100%;
+		width: auto;
+	}
+	section p {
+		max-width: 100%;
+		width: auto;
+	}
+	.formulario {
+		align: center;
+		margin: 10px auto;
+	}
+	/*footer*/
+	footer .container {
+		max-width: 100%;
+	}
+}
